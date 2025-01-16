@@ -1,0 +1,11 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions:
+    - name: meta-package-manager
+      path: ./.github/config/meta-package-manager.dict
+      addWords: true
+dictionaries:
+    - meta-package-manager
+words: []
+ignoreWords: []
+import: []
