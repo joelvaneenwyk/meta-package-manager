@@ -150,7 +150,11 @@ docs = [
 mpm = 'meta_package_manager.__main__:main'
 
 [tool.uv]
+managed = true
 package = true
+
+[tool.uv.pip]
+universal = true
 
 [tool.nuitka]
 product-name = "Meta Package Manager"
@@ -255,4 +259,16 @@ default.extend-ignore-identifiers-re = [
     #     |                             ^^^
     #     |
     "ist",
+]
+
+[dependency-groups]
+dev = [
+    "click-extra[pytest]~=4.11.7",
+    "coverage[toml]~=7.6.0",
+    "pytest~=8.3.1",
+    "pytest-cov~=6.0.0",
+    "pytest-github-actions-annotate-failures~=0.2.0",
+    "pytest-randomly~=3.16.0",
+    "pytest-xdist[psutil]~=3.6.1",
+    "pyyaml~=6.0.0",
 ]
