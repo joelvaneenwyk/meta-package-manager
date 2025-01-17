@@ -237,6 +237,6 @@ class DNF5(DNF):
 class YUM(DNF):
     """Yum is dnf is yum."""
 
-    homepage_url = "http://yum.baseurl.org"
+    homepage_url = "https://yum.baseurl.org"
 
     cli_names = ("yum",)
