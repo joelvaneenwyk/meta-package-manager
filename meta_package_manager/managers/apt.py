@@ -33,7 +33,7 @@ class APT(PackageManager):
 
     Documentation:
     - https://wiki.debian.org/AptCLI
-    - http://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html
+    - https://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html
 
     See other command equivalences at: https://wiki.archlinux.org/title/Pacman/Rosetta
     """
@@ -252,10 +252,10 @@ class APT(PackageManager):
         .. code-block:: shell-session
 
             ► sudo apt --quiet --yes update
-            Hit:1 http://archive.ubuntu.com xenial InRelease
-            Get:2 http://archive.ubuntu.com xenial-updates InRelease [102 kB]
-            Get:3 http://archive.ubuntu.com xenial-security InRelease [102 kB]
-            Get:4 http://archive.ubuntu.com xenial/main Translation-en [568 kB]
+            Hit:1 https://archive.ubuntu.com xenial InRelease
+            Get:2 https://archive.ubuntu.com xenial-updates InRelease [102 kB]
+            Get:3 https://archive.ubuntu.com xenial-security InRelease [102 kB]
+            Get:4 https://archive.ubuntu.com xenial/main Translation-en [568 kB]
             Fetched 6,868 kB in 2s (2,680 kB/s)
             Reading package lists...
             Building dependency tree...

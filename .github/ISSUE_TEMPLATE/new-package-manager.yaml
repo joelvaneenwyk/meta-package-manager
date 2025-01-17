@@ -176,9 +176,9 @@ body:
       render: shell-session
       placeholder: |
         $ sudo apt --quiet --yes update
-        Hit:1 http://archive.ubuntu.com xenial InRelease
-        Get:2 http://archive.ubuntu.com xenial-updates InRelease [102 kB]
-        Get:3 http://archive.ubuntu.com xenial-security InRelease [102 kB]
+        Hit:1 https://archive.ubuntu.com xenial InRelease
+        Get:2 https://archive.ubuntu.com xenial-updates InRelease [102 kB]
+        Get:3 https://archive.ubuntu.com xenial-security InRelease [102 kB]
         Fetched 6,868 kB in 2s (2,680 kB/s)
         Building dependency tree...
         Reading state information...

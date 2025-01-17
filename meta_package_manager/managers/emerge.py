@@ -178,7 +178,7 @@ class Emerge(PackageManager):
                 Latest version available: 1.0.2-r1
                 Latest version installed: [ Not Installed ]
                 Size of files: 380 KiB
-                Homepage:      http://htop.sourceforge.net
+                Homepage:      https://htop.sourceforge.net
                 Description:   interactive process viewer
                 License:       BSD GPL-2
 

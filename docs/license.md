@@ -10,7 +10,7 @@ This software is licensed under the
 
 The following images are sourced from [Open Clipart](https://openclipart.org)
 which are distributed under a
-[Creative Commons Zero 1.0 Public Domain License](http://creativecommons.org/publicdomain/zero/1.0/):
+[Creative Commons Zero 1.0 Public Domain License](https://creativecommons.org/publicdomain/zero/1.0/):
 
 - [happy paper box](https://github.com/kdeldycke/meta-package-manager/blob/main/docs/assets/happy-paper-box.svg)
   is sourced from
