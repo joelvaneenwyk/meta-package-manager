@@ -762,6 +762,7 @@ dev = [
     { name = "coverage", extra = ["toml"] },
     { name = "furo" },
     { name = "myst-parser" },
+    { name = "pip" },
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-github-actions-annotate-failures" },
@@ -826,6 +827,7 @@ dev = [
     { name = "coverage", extras = ["toml"], specifier = "~=7.6.0" },
     { name = "furo", specifier = "~=2024.8.6" },
     { name = "myst-parser", specifier = "~=4.0.0" },
+    { name = "pip", specifier = ">=24.3.1" },
     { name = "pytest", specifier = "~=8.3.1" },
     { name = "pytest-cov", specifier = "~=6.0.0" },
     { name = "pytest-github-actions-annotate-failures", specifier = "~=0.2.0" },
@@ -902,6 +904,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/3b/08/c57dd89e45dbc976930200a2cb7826ed76f3c9791454a9fcd1cde3f17177/pallets_sphinx_themes-2.3.0.tar.gz", hash = "sha256:6293ced11a1d5d3de7268af1acd60428732b5a9e6051a47a596c6d9a083e60d9", size = 21029 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ff/7d/a4aa06e452e031559dcfb066e035d2615ebfa6148e93514d7c36030004c1/pallets_sphinx_themes-2.3.0-py3-none-any.whl", hash = "sha256:7ed13de3743c462c2804e2aa63d96cc9ffa82cb76d0251cea03de9bcd9f8dbec", size = 24745 },
+]
+
+[[package]]
+name = "pip"
+version = "24.3.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/b1/b422acd212ad7eedddaf7981eee6e5de085154ff726459cf2da7c5a184c1/pip-24.3.1.tar.gz", hash = "sha256:ebcb60557f2aefabc2e0f918751cd24ea0d56d8ec5445fe1807f1d2109660b99", size = 1931073 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/7d/500c9ad20238fcfcb4cb9243eede163594d7020ce87bd9610c9e02771876/pip-24.3.1-py3-none-any.whl", hash = "sha256:3790624780082365f47549d032f3770eeb2b1e8bd1f7b2e02dace1afa361b4ed", size = 1822182 },
 ]
 
 [[package]]
