@@ -152,6 +152,7 @@ mpm = 'meta_package_manager.__main__:main'
 [tool.uv]
 managed = true
 package = true
+link-mode = "copy"
 
 [tool.uv.pip]
 universal = true
